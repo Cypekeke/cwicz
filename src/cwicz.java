@@ -31,6 +31,9 @@ public class cwicz {
                     mnoznik = 0.1;
                 }
 
+//                to jest skrocony zapis if
+// double multiplier = rate <= 12 ? 0.025 : rate <=24 ? 0.05 : 0.1;
+
                 double odsetki = (price * mnoznik);
                 double TotalPrize = (price + odsetki);
                 double OneRate = (odsetki / rate);
